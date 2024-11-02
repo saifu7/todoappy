@@ -52,3 +52,8 @@ function addToList() {
         });
     }
 }
+
+// TODO : need some improvement
+function doSomeImporvement() {
+    console.log('watermelon');
+}
