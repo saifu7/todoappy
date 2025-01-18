@@ -46,7 +46,7 @@ function addToList() {
       taskList.removeChild(listItem);
     });
 
-    // Add functionality for checkbox click (optional)
+    // TODO: Add functionality for checkbox click (optional)
     checkbox.addEventListener("click", () => {
       listItem.classList.toggle("active");
     });
