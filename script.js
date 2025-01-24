@@ -33,7 +33,7 @@ function addToList() {
     // Append the buttons and text to the list
     listItem.appendChild(checkbox);
     listItem.appendChild(span);
-    listItem.appendChild(closeButton);
+    listItem.appendChild(closeButton)
 
     // Append the listItem to the task list
     taskList.appendChild(listItem);
