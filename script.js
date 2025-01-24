@@ -10,7 +10,7 @@ addTask.addEventListener("click", () => {
 // Add a task to the list when Enter key pressed
 newTask.addEventListener("keyup", (e) => {
   if (e.key === "Enter") {
-    addToList();
+    addToList()
   }
 });
 
