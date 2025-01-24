@@ -4,7 +4,7 @@ const taskList = document.getElementById("task-list");
 
 // Add a task to the list when button is clicked
 addTask.addEventListener("click", () => {
-  addToList();
+  addToList()
 });
 
 // Add a task to the list when Enter key pressed
