@@ -15,13 +15,13 @@ newTask.addEventListener("keyup", (e) => {
 });
 
 function addToList() {
-  let text = newTask.value
+  let text = newTask.value;
   if (text) {
     // Create the listItems
-    const listItem = document.createElement("li")
+    const listItem = document.createElement("li");
     listItem.className = "task-item";
     const checkbox = document.createElement("button");
-    checkbox.className = "btn-check";
+    checkbox.className = "btn-check\n";
     checkbox.innerHTML = `<i class="fa-solid fa-check"><i/>`;
     const span = document.createElement("span");
     span.className = "text";
