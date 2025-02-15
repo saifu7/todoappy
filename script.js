@@ -12,7 +12,7 @@ newTask.addEventListener("keyup", (e) => {
   if (e.key === "Enter") {
     addToList();
   }
-});
+})
 
 function addToList() {
   let text = newTask.value;
@@ -48,7 +48,7 @@ function addToList() {
 
     // Add functionality for checkbox click (optional)
     checkbox.addEventListener("click", () => {
-      listItem.classList.toggle("active");
+      listItem.classList.toggle("active")
     });
   }
 }
