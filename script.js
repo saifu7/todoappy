@@ -23,12 +23,12 @@ function addToList() {
     const checkbox = document.createElement("button");
     checkbox.className = "btn-check";
     checkbox.innerHTML = `<i class="fa-solid fa-check"><i/>`;
-    const span = document.createElement("span");
+    const span = document.createElement("span")
     span.className = "text";
     span.textContent = text;
     const closeButton = document.createElement("button");
     closeButton.className = "btn-close";
-    closeButton.innerHTML = `<i class="fa-solid fa-xmark"><i/>`;
+    closeButton.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
 
     // Append the buttons and text to the list
     listItem.appendChild(checkbox);
@@ -49,6 +49,6 @@ function addToList() {
     // Add functionality for checkbox click (optional)
     checkbox.addEventListener("click", () => {
       listItem.classList.toggle("active");
-    });
+    })
   }
 }
