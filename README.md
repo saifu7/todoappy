@@ -18,3 +18,4 @@ This project creates a basic to-do list application using HTML, CSS, and JavaScr
 -   **index.html:** This file contains the main HTML structure of the application, including elements for the input field, button, and task list.
 -   **style.css:** This file defines the styles for the application's visual appearance (optional, but recommended for a more polished look).
 -   **script.js:** This file contains the JavaScript code responsible for adding new tasks, handling checkboxes, and removing tasks.
+4th pr
